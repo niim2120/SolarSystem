@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 5944790705570951962}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.76604444, z: 0, w: 0.64278764}
-  m_LocalPosition: {x: -10, y: 0, z: 0}
+  m_LocalPosition: {x: -9.960626, y: 0.44563037, z: 0.22330087}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -120,8 +120,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6e3435f7fa43b4ba8d30ffa5e1cffd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectileSpeed: 3
-  destroyDistance: 20
+  projectileSpeed: 6
+  destroyDistance: 100
 --- !u!96 &6457169531596040969
 TrailRenderer:
   serializedVersion: 3
@@ -174,7 +174,7 @@ TrailRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.09489051
+        value: 0.20299518
         inSlope: 0
         outSlope: 0
         tangentMode: 0
